@@ -1,0 +1,4 @@
+<?php
+namespace App\Models;
+use Illuminate\Database\Eloquent\Model;
+class FoodOrder extends Model { protected $fillable=['reference','customer_id','restaurant_id','delivery_staff_id','delivery_address_id','address_snapshot','subtotal_cents','delivery_fee_cents','discount_cents','total_cents','promotion_code','payment_method','payment_status','status','customer_note']; protected function casts():array{return ['address_snapshot'=>'array'];} public function customer(){return $this->belongsTo(User::class,'customer_id');} public function restaurant(){return $this->belongsTo(Restaurant::class);} public function deliveryStaff(){return $this->belongsTo(User::class,'delivery_staff_id');} public function items(){return $this->hasMany(FoodOrderItem::class);} public function events(){return $this->hasMany(FoodOrderEvent::class);} }
