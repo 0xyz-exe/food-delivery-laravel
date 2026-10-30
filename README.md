@@ -57,15 +57,3 @@ npm audit --omit=dev
 ```
 
 `npm audit --omit=dev` reports 0 vulnerabilities. Full `npm audit` reports 3 moderate development-tool findings (`postcss-nested`, `postcss-selector-parser`, Tailwind CSS); npm suggests Tailwind 4.3.3, a breaking major upgrade. Do not run `npm audit fix --force` blindly; assess a deliberate Tailwind v4 migration separately. `.env`, SQLite files, `vendor`, `node_modules`, framework caches, and build artifacts are excluded from Git.
-
-
-## Screenshots
-
-### Dashboard Overview
-![Dashboard](docs/screenshots/01_dashboard.png)
-
-### Login Overview
-![Login](docs/screenshots/02_login.png)
-
-### Cart Overview
-![Cart](docs/screenshots/03_cart.png)
