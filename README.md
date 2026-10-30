@@ -2,6 +2,17 @@
 
 Standalone Laravel 13 marketplace for a small food-delivery operation. Restaurant-specific menus and carts; addresses; server-calculated checkout; stock/promotion transactions; customer order history; restaurant and delivery operations; COD; admin reporting.
 
+## Screenshots
+
+| Tampilan | Preview |
+|---|---|
+| **Katalog Restoran & Marketplace**<br>Eksplorasi restoran lokal mitra, estimasi ongkos kirim, status operasional buka/tutup, dan jumlah menu aktif | ![Katalog Restoran & Marketplace](docs/screenshots/01-restaurant-catalog-overview.png) |
+| **Menu Restoran & Pemesanan Interaktif**<br>Daftar hidangan terorganisir per kategori, rincian bahan/harga, dan form interaktif penambahan item ke keranjang | ![Menu Restoran & Keranjang](docs/screenshots/02-restaurant-menu-cart.png) |
+| **Rincian Pesanan, Tanda Terima & Alokasi Kurir**<br>Pelacakan status pesanan real-time, rincian biaya & diskon kupon, alamat kirim, penugasan driver, dan riwayat audit | ![Rincian Pesanan & Alokasi Kurir](docs/screenshots/03-order-tracking-receipt.png) |
+| **Dashboard Operasional Restoran**<br>Panel manajemen outlet untuk pengaturan biaya antar, pembukaan gerai, pembuatan kategori/item menu, dan kontrol stok | ![Dashboard Operasional Restoran](docs/screenshots/04-restaurant-operations-dashboard.png) |
+
+---
+
 ## Setup (Windows PowerShell)
 
 ```powershell
